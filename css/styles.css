@@ -1,0 +1,76 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 100%;
+  font-family: "Segoe UI light", Arial, sans-serif;
+  color: #2d3c49;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.2em;
+}
+
+.header {
+  width: 80%;
+  text-align: right;
+  border-bottom: 3px solid #7d97ad;
+  margin: 0 0 30px 0;
+}
+
+.uppercase {
+   text-transform: uppercase;
+}
+
+.udacity-logo {
+  float: left;
+  width: 5%;
+  padding: 10px;
+}
+
+.main-img {
+  order: 1;
+  width: 80%;
+  height: auto;
+}
+
+.featured-work-header {
+  order: 2;
+  flex-flow: nowrap row;
+  color: #7d97ad;
+}
+
+.second-img {
+  order: 3;
+}
+
+.third-img {
+  order: 4;
+}
+
+.fourth-img {
+  order: 5;
+}
+ .second-img, .third-img, .fourth-img {
+   width: 80%;
+   max-width: 100%;
+   height: 25%;
+   max-height: 265px;
+ }
+
+ .flex-img {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: flex-end;
+   max-width: 80%;
+ }
+
+.p-column {
+  flex-flow: column wrap;
+  justify-content: space-between;
+  text-align: center;
+  flex-grow: 1;
+  width: 33.3%;
+}
